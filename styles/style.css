@@ -6,3 +6,131 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.header {
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainLogo {
+  width: 200px;
+}
+
+nav {
+  display: flex;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.introImage {
+  height: 820px;
+  background-image: url('/images/landing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.introHeadline {
+  color: white;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introText {
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.icon {
+  width: 100px;
+}
+
+.headlineOverview {
+  text-align: center;
+  margin-bottom: auto;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+section hr {
+  background:#1DB954;
+  border: none;
+  color:#1DB954;
+  height: 4px;
+  width: 17%;
+ }
+
+ .spotifyOverview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  order: 1;
+  margin-top: 4rem;
+}
+
+ .itemsOverview {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .secondHeadlineOverview {
+   color: #1DB954;
+   font-size: 1.5rem;
+ }
+
+ .textOverview {
+  font-size: 1.5rem;
+ }
+
+.example {
+  color: white
+}
+
+.exampleImage {
+  height: 10px;
+  background-image: url('images/spotify-icon-white.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.exampleSection {
+  background-color:#1DB954;
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
